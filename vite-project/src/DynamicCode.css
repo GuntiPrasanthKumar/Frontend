@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+*{
+    color: rgb(0, 0, 0);
+}
+.parent{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 5px;
+    font-size: 30px;
+    border: 1px bold black;
+    border-radius: 15px;
+}
+img{
+    width: 90px;
+}
