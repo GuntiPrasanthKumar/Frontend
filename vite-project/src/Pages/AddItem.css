@@ -4,6 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+} 
+a{
+    text-decoration: none;
+    color: white;
 }
 form {
     width: 30%;
@@ -19,6 +25,8 @@ form input {
 .buttons {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
+    display: none;
 }
 .buttons button {
     padding: 1rem;

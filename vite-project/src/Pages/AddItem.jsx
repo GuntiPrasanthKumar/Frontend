@@ -1,5 +1,6 @@
 import React, {useContext, useRef, useState} from 'react';
 import Context from "../Context.jsx";
+import "../Pages/AddItem.css";
 // import Context from "../Context.jsx";
 
 function AddItem() {
