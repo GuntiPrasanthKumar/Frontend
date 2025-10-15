@@ -1,0 +1,278 @@
+[
+  {
+    "id": "01-jsx-basics",
+    "title": "01: JSX Basics & Conditional Rendering",
+    "summary": "Mastering JSX expressions, fragment syntax, conditional rendering with ternary and logical AND operators.",
+    "date": "2025-10-15T10:30:00+05:30"
+  },
+  {
+    "id": "02-props-components",
+    "title": "02: Functional Components & Props",
+    "summary": "Reusable functional components, passing props, destructured arguments, children prop, and default values.",
+    "date": "2025-10-18T11:00:00+05:30"
+  },
+  {
+    "id": "03-usestate-hook",
+    "title": "03: State Management with useState",
+    "summary": "Component-level state with useState hook, immutable state updates, functional updaters, and multi-state managers.",
+    "date": "2025-10-21T14:15:00+05:30"
+  },
+  {
+    "id": "04-event-handling",
+    "title": "04: Event Handling & Synthetic Events",
+    "summary": "React SyntheticEvent wrapper, event propagation, preventDefault, and keyboard/mouse event handling.",
+    "date": "2025-10-24T16:00:00+05:30"
+  },
+  {
+    "id": "05-list-rendering",
+    "title": "05: List Rendering & Keys",
+    "summary": "Array mapping in JSX, assigning stable unique keys, list filtering, and dynamic item operations.",
+    "date": "2025-10-27T11:45:00+05:30"
+  },
+  {
+    "id": "06-controlled-forms",
+    "title": "06: Controlled Components & Form Validation",
+    "summary": "Single and multi-field controlled forms, input validation rules, and submission handlers.",
+    "date": "2025-10-30T15:20:00+05:30"
+  },
+  {
+    "id": "07-useeffect-lifecycle",
+    "title": "07: Side Effects with useEffect",
+    "summary": "Component lifecycles, effect dependency array, timers, and cleanup return functions.",
+    "date": "2025-11-02T10:00:00+05:30"
+  },
+  {
+    "id": "08-data-fetching",
+    "title": "08: Data Fetching & Loading States",
+    "summary": "Fetching data from REST APIs, handling loading spinners, error states, and retry mechanisms.",
+    "date": "2025-11-05T12:30:00+05:30"
+  },
+  {
+    "id": "09-css-styling",
+    "title": "09: Component Styling & Modern CSS",
+    "summary": "CSS variables, scoped classes, glassmorphism, responsive cards, and dynamic theme classes.",
+    "date": "2025-11-08T15:10:00+05:30"
+  },
+  {
+    "id": "10-useref-dom",
+    "title": "10: DOM Manipulation with useRef",
+    "summary": "Direct DOM node referencing, programmatic input focusing, and storing mutable values without re-renders.",
+    "date": "2025-11-11T13:40:00+05:30"
+  },
+  {
+    "id": "11-usereducer-hook",
+    "title": "11: Complex State with useReducer",
+    "summary": "Predictable state transitions, action types, dispatch pattern, and complex object state management.",
+    "date": "2025-11-14T16:00:00+05:30"
+  },
+  {
+    "id": "12-usememo-usecallback",
+    "title": "12: Performance with useMemo & useCallback",
+    "summary": "Memoizing heavy computed results with useMemo and stabilizing function references with useCallback.",
+    "date": "2025-11-17T11:20:00+05:30"
+  },
+  {
+    "id": "13-react-memo",
+    "title": "13: Pure Components with React.memo",
+    "summary": "Preventing unnecessary child component re-renders when parent state updates unrelated props.",
+    "date": "2025-11-20T14:45:00+05:30"
+  },
+  {
+    "id": "14-custom-hooks-1",
+    "title": "14: Custom Hooks I (useLocalStorage & useToggle)",
+    "summary": "Extracting reusable component state logic into custom hooks: useLocalStorage and useToggle.",
+    "date": "2025-11-23T10:15:00+05:30"
+  },
+  {
+    "id": "15-custom-hooks-2",
+    "title": "15: Custom Hooks II (useDebounce & useFetch)",
+    "summary": "Building useDebounce for search rate-limiting and useFetch for generic declarative API queries.",
+    "date": "2025-11-26T15:30:00+05:30"
+  },
+  {
+    "id": "16-task-todo-app",
+    "title": "16: Milestone Task - Categorized Task Manager",
+    "summary": "Comprehensive interactive Task / Todo Manager integrating useState, custom hooks, filters, and local persistence.",
+    "date": "2025-11-29T11:00:00+05:30"
+  },
+  {
+    "id": "17-context-theme-auth",
+    "title": "17: Context API (Theme & Auth)",
+    "summary": "Global state sharing without prop-drilling using createContext, useContext, and Provider pattern.",
+    "date": "2025-12-02T13:00:00+05:30"
+  },
+  {
+    "id": "18-context-cart",
+    "title": "18: Global Shopping Cart with Context",
+    "summary": "Building a full shopping cart context provider with item addition, removal, quantity manipulation, and total calculation.",
+    "date": "2025-12-05T16:15:00+05:30"
+  },
+  {
+    "id": "19-react-router-v6",
+    "title": "19: React Router v6 Basics",
+    "summary": "Client-side routing architecture, BrowserRouter, Routes, Route, Link, and active NavLinks.",
+    "date": "2025-12-08T11:45:00+05:30"
+  },
+  {
+    "id": "20-dynamic-routing",
+    "title": "20: Dynamic Route Params & Search Params",
+    "summary": "Dynamic URL parameters (:id), useParams hook, and URL query strings with useSearchParams.",
+    "date": "2025-12-11T14:30:00+05:30"
+  },
+  {
+    "id": "21-nested-routes",
+    "title": "21: Nested Routes & Outlet Layouts",
+    "summary": "Hierarchical navigation layouts, sidebar persistent shells, and child route rendering via Outlet.",
+    "date": "2025-12-14T10:00:00+05:30"
+  },
+  {
+    "id": "22-protected-routes",
+    "title": "22: Protected Routes & Auth Guards",
+    "summary": "Route guards, redirecting unauthenticated users to login, and handling redirect back locations.",
+    "date": "2025-12-17T15:20:00+05:30"
+  },
+  {
+    "id": "23-error-boundaries",
+    "title": "23: Error Boundaries & Suspense",
+    "summary": "Catching runtime errors with Error Boundaries and lazy loading components using React.lazy & Suspense.",
+    "date": "2025-12-20T11:15:00+05:30"
+  },
+  {
+    "id": "24-portals-modals",
+    "title": "24: Modals & Portals (createPortal)",
+    "summary": "Rendering UI into DOM nodes outside root container using ReactDOM.createPortal for modals and overlays.",
+    "date": "2025-12-23T16:40:00+05:30"
+  },
+  {
+    "id": "25-form-validation-hook",
+    "title": "25: Custom Form Validation Engine",
+    "summary": "Building an extensible custom form validation hook with schema rules and instant feedback.",
+    "date": "2025-12-26T12:00:00+05:30"
+  },
+  {
+    "id": "26-task-ecommerce-catalog",
+    "title": "26: Milestone Task - E-Commerce Catalog & Cart",
+    "summary": "Full-featured E-Commerce catalog with price filtering, search, category tabs, and shopping cart persistence.",
+    "date": "2025-12-29T14:50:00+05:30"
+  },
+  {
+    "id": "27-redux-toolkit-setup",
+    "title": "27: Redux Toolkit (Store & Slices)",
+    "summary": "Modern Redux state architecture with createSlice, configureStore, useSelector, and useDispatch.",
+    "date": "2026-01-02T10:30:00+05:30"
+  },
+  {
+    "id": "28-redux-async-thunk",
+    "title": "28: Redux Async Thunks",
+    "summary": "Handling asynchronous workflows in Redux with createAsyncThunk, pending, fulfilled, and rejected lifecycles.",
+    "date": "2026-01-05T14:15:00+05:30"
+  },
+  {
+    "id": "29-axios-interceptors",
+    "title": "29: HTTP Client with Axios Interceptors",
+    "summary": "Axios instances, injecting Authorization Bearer tokens, response error interceptors, and retry logic.",
+    "date": "2026-01-08T11:00:00+05:30"
+  },
+  {
+    "id": "30-pagination-infinitescroll",
+    "title": "30: Pagination & Infinite Scrolling",
+    "summary": "Client/server-side pagination, page slice calculations, and infinite scroll observers.",
+    "date": "2026-01-11T16:30:00+05:30"
+  },
+  {
+    "id": "31-search-debouncing",
+    "title": "31: Live Search & Autocomplete",
+    "summary": "Optimized live search, autocomplete suggestions list, and highlight matches.",
+    "date": "2026-01-14T10:15:00+05:30"
+  },
+  {
+    "id": "32-file-upload-preview",
+    "title": "32: Drag & Drop File Upload & Preview",
+    "summary": "Handling file inputs, drag-and-drop dropzones, file size/type validation, and instant base64 preview.",
+    "date": "2026-01-17T15:00:00+05:30"
+  },
+  {
+    "id": "33-toast-notification-system",
+    "title": "33: Global Toast Notification System",
+    "summary": "Stackable toast notifications with auto-dismiss timers, success/error/warning themes, and swipe to dismiss.",
+    "date": "2026-01-20T12:40:00+05:30"
+  },
+  {
+    "id": "34-darkmode-theming",
+    "title": "34: System Dark Mode & CSS Variable Theming",
+    "summary": "Automatic OS preference detection with prefers-color-scheme, manual toggle override, and CSS variables.",
+    "date": "2026-01-23T16:00:00+05:30"
+  },
+  {
+    "id": "35-data-charts",
+    "title": "35: Interactive Data Charts & SVG Visualizations",
+    "summary": "Building responsive bar charts, SVG trend lines, and metrics cards with pure React and SVG.",
+    "date": "2026-01-26T11:20:00+05:30"
+  },
+  {
+    "id": "36-task-admin-dashboard",
+    "title": "36: Milestone Task - Full Analytics Admin Dashboard",
+    "summary": "Complete responsive admin dashboard featuring metric cards, user tables, search filters, and status toggles.",
+    "date": "2026-01-29T15:30:00+05:30"
+  },
+  {
+    "id": "37-crud-service-layer",
+    "title": "37: Clean Architecture - REST API CRUD Service",
+    "summary": "Decoupling data access with dedicated service modules (apiService.js) and generic CRUD operations.",
+    "date": "2026-02-02T10:00:00+05:30"
+  },
+  {
+    "id": "38-auth-flow-jwt",
+    "title": "38: Complete Authentication Flow & JWT Handling",
+    "summary": "Full authentication flow with login, register modal, token storage, and session logout.",
+    "date": "2026-02-05T14:30:00+05:30"
+  },
+  {
+    "id": "39-multistep-wizard",
+    "title": "39: Complex Multi-Step Form Wizard",
+    "summary": "Step-by-step wizard forms, validating per-step inputs, and aggregating final payload submission.",
+    "date": "2026-02-08T11:15:00+05:30"
+  },
+  {
+    "id": "40-drag-and-drop",
+    "title": "40: Interactive Drag-and-Drop Kanban Board",
+    "summary": "Building an interactive Kanban board with draggable cards across Todo, In-Progress, and Done columns.",
+    "date": "2026-02-11T16:20:00+05:30"
+  },
+  {
+    "id": "41-component-testing",
+    "title": "41: UI Component Testing with Vitest",
+    "summary": "Unit testing React components, mocking user events, asserting DOM structure and assertions.",
+    "date": "2026-02-14T11:00:00+05:30"
+  },
+  {
+    "id": "42-performance-optimization",
+    "title": "42: Performance Optimization & Code Splitting",
+    "summary": "Bundle size analysis, dynamic imports, image optimization techniques, and Lighthouse scores.",
+    "date": "2026-02-17T15:10:00+05:30"
+  },
+  {
+    "id": "43-task-realtime-chat-ui",
+    "title": "43: Milestone Task - Real-Time Chat Interface",
+    "summary": "Interactive real-time message stream with bubble alignment, typing indicators, and auto-scroll.",
+    "date": "2026-02-20T10:45:00+05:30"
+  },
+  {
+    "id": "44-task-recipe-planner",
+    "title": "44: Milestone Task - Recipe & Meal Planner App",
+    "summary": "Full-featured Recipe and Meal Planner application with ingredient checklist, prep timers, and saved meals.",
+    "date": "2026-02-23T14:00:00+05:30"
+  },
+  {
+    "id": "45-production-deployment",
+    "title": "45: Production Build & Deployment Setup",
+    "summary": "Vite build bundling, environment variable injection, HTTP caching headers, and hosting configuration.",
+    "date": "2026-02-26T11:30:00+05:30"
+  },
+  {
+    "id": "46-curriculum-showcase",
+    "title": "46: Final Showcase - Interactive Learning Hub",
+    "summary": "Complete interactive learning dashboard navigating all 46 modules, tracking progress, and showcasing achievements.",
+    "date": "2026-02-28T16:00:00+05:30"
+  }
+]
